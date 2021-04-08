@@ -364,7 +364,7 @@
           </Trigger>
         </Triggers>
       </Folder>
-      <Folder Id="68290801-8882-479b-b5f5-3e384757831f" Name="3.0" Enabled="false">
+      <Folder Id="68290801-8882-479b-b5f5-3e384757831f" Name="3.0" Enabled="true">
         <Folders>
           <Folder ZoneFilterEnabled="True" Id="be303730-cc9f-4b82-ba7a-616e2591b0dd" ZoneFilterRegularExpression="圆桌骑士幻想歼灭战" Name="极骑" Enabled="true">
             <Folders />
@@ -3212,24 +3212,12 @@
         </Actions>
         <Condition Enabled="true" Grouping="Or" />
       </Trigger>
-      <Trigger Enabled="false" Name="重复用宏" Id="4a7ebb41-2abc-44ca-8233-8a287d4ab8f4" RegularExpression="ykmacro">
+      <Trigger Enabled="false" Name="重复用宏 510hq 药1" Id="4a7ebb41-2abc-44ca-8233-8a287d4ab8f4" RegularExpression="yao1">
         <Actions>
-          <Action OrderNumber="1" UseTTSTextExpression="制作完成" UseTTSVolumeExpression="42" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+          <Action OrderNumber="1" UseTTSTextExpression="制作11完成" UseTTSVolumeExpression="42" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
-          <Action OrderNumber="2" KeypressType="WindowMessage" KeyPressExpression="{F10}" KeyPressCode="121" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="650" Asynchronous="False" RefireInterrupt="True">
-            <Condition Enabled="false" Grouping="Or" />
-          </Action>
-          <Action OrderNumber="3" KeypressType="WindowMessage" KeyPressExpression="{F10}" KeyPressCode="121" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="3000" Asynchronous="False" RefireInterrupt="True">
-            <Condition Enabled="false" Grouping="Or" />
-          </Action>
-          <Action OrderNumber="4" KeypressType="WindowMessage" KeyPressExpression="{F10}" KeyPressCode="121" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="600" Asynchronous="False" RefireInterrupt="True">
-            <Condition Enabled="false" Grouping="Or" />
-          </Action>
-          <Action OrderNumber="5" KeypressType="WindowMessage" KeyPressExpression="{F10}" KeyPressCode="121" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="600" Asynchronous="False" RefireInterrupt="True">
-            <Condition Enabled="false" Grouping="Or" />
-          </Action>
-          <Action OrderNumber="6" KeypressType="WindowMessage" KeyPressExpression="{F9}" KeyPressCode="120" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="1000" Asynchronous="False" RefireInterrupt="True">
+          <Action OrderNumber="2" KeypressType="WindowMessage" KeyPressExpression="{F9}" KeyPressCode="120" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="1000" Asynchronous="False" RefireInterrupt="True">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
         </Actions>
@@ -3293,6 +3281,12 @@
           <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="DisableTrigger" TriggerId="4a7ebb41-2abc-44ca-8233-8a287d4ab8f4" ActionType="Trigger">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
+          <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="DisableTrigger" TriggerId="e8fc8f1d-f287-4a64-9345-61a6dda2c9b7" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="5" LogLevel="-1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="DisableTrigger" TriggerId="87550e24-af3b-48b6-ad49-d5f35424ac0d" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
         </Actions>
         <Condition Enabled="false" Grouping="Or" />
       </Trigger>
@@ -3301,7 +3295,13 @@
           <Action OrderNumber="1" LogLevel="-1" UseTTSTextExpression="开始重复制作" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
-          <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="EnableTrigger" TriggerId="4a7ebb41-2abc-44ca-8233-8a287d4ab8f4" ActionType="Trigger">
+          <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="EnableTrigger" TriggerId="e8fc8f1d-f287-4a64-9345-61a6dda2c9b7" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="EnableTrigger" TriggerId="4a7ebb41-2abc-44ca-8233-8a287d4ab8f4" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="EnableTrigger" TriggerId="87550e24-af3b-48b6-ad49-d5f35424ac0d" ActionType="Trigger">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
         </Actions>
@@ -3401,6 +3401,52 @@
       <Trigger Enabled="true" Name="主动结束战斗" Id="522a052a-5742-44fe-b393-84bb26a3e928" RegularExpression="结束战斗">
         <Actions>
           <Action OrderNumber="1" LogLevel="-1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="EndEncounter">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="false" Name="重复用宏" Id="e8fc8f1d-f287-4a64-9345-61a6dda2c9b7" RegularExpression="ykmacro">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="制作完成" UseTTSVolumeExpression="42" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="2" KeypressType="WindowMessage" KeyPressExpression="{F10}" KeyPressCode="121" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="650" Asynchronous="False" RefireInterrupt="True">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="3" KeypressType="WindowMessage" KeyPressExpression="{F10}" KeyPressCode="121" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="3000" Asynchronous="False" RefireInterrupt="True">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="4" KeypressType="WindowMessage" KeyPressExpression="{F10}" KeyPressCode="121" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="600" Asynchronous="False" RefireInterrupt="True">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="5" KeypressType="WindowMessage" KeyPressExpression="{F10}" KeyPressCode="121" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="600" Asynchronous="False" RefireInterrupt="True">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="6" KeypressType="WindowMessage" KeyPressExpression="{F9}" KeyPressCode="119" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="1000" Asynchronous="False" RefireInterrupt="True">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="false" Name="重复用宏 510hq 药2" Id="87550e24-af3b-48b6-ad49-d5f35424ac0d" RegularExpression="yao2">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="制作2完成" UseTTSVolumeExpression="42" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="2" KeypressType="WindowMessage" KeyPressExpression="{F10}" KeyPressCode="121" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="650" Asynchronous="False" RefireInterrupt="True">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="3" KeypressType="WindowMessage" KeyPressExpression="{F10}" KeyPressCode="121" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="3000" Asynchronous="False" RefireInterrupt="True">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="4" KeypressType="WindowMessage" KeyPressExpression="{F10}" KeyPressCode="121" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="600" Asynchronous="False" RefireInterrupt="True">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="5" KeypressType="WindowMessage" KeyPressExpression="{F10}" KeyPressCode="121" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="600" Asynchronous="False" RefireInterrupt="True">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="6" KeypressType="WindowMessage" KeyPressExpression="{F9}" KeyPressCode="119" KeyPressWindow="最终幻想XIV" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="KeyPress" ExecutionDelayExpression="1000" Asynchronous="False" RefireInterrupt="True">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
         </Actions>
